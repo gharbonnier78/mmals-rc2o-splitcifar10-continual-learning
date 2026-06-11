@@ -2,6 +2,16 @@
 
 This repository package updates the arXiv/GitHub materials with the **SplitCIFAR10 robust 5-seed addendum**.
 
+<p align="center">
+  <a href="./paper/main.pdf">
+    <img src="https://img.shields.io/badge/Open-Article-0B5FFF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Open PDF">
+  </a>
+  &nbsp;
+  <a href="./docs/MMALS_SplitCIFAR10_RC2O_v22c_robust_analysis_report.pdf">
+    <img src="https://img.shields.io/badge/Open-Results-111827?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Open PDF">
+  </a>
+</p>
+
 ## Status
 
 **Supported claim:** RC2O-v2.2c evaluates MMALS in a SplitCIFAR10 class-incremental continual-learning protocol over a frozen supervised A1 visual feature representation.
