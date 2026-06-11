@@ -1,0 +1,17 @@
+\begin{tabularx}{\linewidth}{lccccc}
+\toprule
+Baseline family & Selected seeds & Val. score & Val. final avg & Val. min-task & Val. forgetting \\
+\midrule
+balanced\_replay & 5 & 0.7238 & 0.6973 & 0.5577 & 0.1171 \\
+experience\_replay & 5 & 0.7238 & 0.6973 & 0.5577 & 0.1171 \\
+lwf & 5 & 0.2289 & 0.2285 & 0.0190 & 0.0063 \\
+sparse\_moe & 5 & 0.0066 & 0.1759 & 0.0000 & 0.6769 \\
+pnn & 5 & 0.0062 & 0.1746 & 0.0000 & 0.6737 \\
+noisy\_topk\_moe & 5 & 0.0059 & 0.1751 & 0.0000 & 0.6765 \\
+ewc & 5 & 0.0051 & 0.1753 & 0.0000 & 0.6806 \\
+hard\_top1\_moe & 5 & 0.0050 & 0.1729 & 0.0000 & 0.6715 \\
+dense\_moe & 5 & 0.0043 & 0.1737 & 0.0000 & 0.6777 \\
+finetune & 5 & 0.0040 & 0.1733 & 0.0000 & 0.6771 \\
+joint\_upper\_bound & 5 & -- & -- & -- & -- \\
+\bottomrule
+\end{tabularx}

@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this package, cite the MMALS RC2O-v2.2c SplitCIFAR10 robust bridge package."
+title: "MMALS RC2O-v2.2c SplitCIFAR10 Robust Bridge"
+authors:
+  - family-names: "Harbonnier"
+    given-names: "Guillaume"
+version: "v2.2c-robust-addendum"
+date-released: "2026-06-11"

@@ -1,0 +1,34 @@
+seed,short_name,method,candidate_id,selected,config_json,selection_scope,validation_score,validation_final_avg_acc,validation_min_task_acc,validation_avg_forgetting
+0,finetune,baseline_finetune,finetune_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0064166666666666,0.1776666666666666,0.0,0.6849999999999999
+0,ewc,baseline_ewc,ewc_cand_0,True,"{""EWC_LAMBDA"": 1.0}",train_split_validation_only_no_final_test,0.0069166666666666,0.1783333333333333,0.0,0.6856666666666666
+0,lwf,baseline_lwf,lwf_cand_2,True,"{""DISTILL_TEMPERATURE"": 3.0, ""LWF_LAMBDA"": 2.0}",train_split_validation_only_no_final_test,0.2211666666666666,0.2213333333333333,0.0066666666666666,0.0033333333333333
+0,experience_replay,baseline_experience_replay,experience_replay_cand_2,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 192, ""MEMORY_PER_TASK"": 192}",train_split_validation_only_no_final_test,0.7395,0.7103333333333334,0.565,0.1093333333333333
+0,balanced_replay,baseline_balanced_replay,balanced_replay_cand_2,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 192, ""MEMORY_PER_TASK"": 192}",train_split_validation_only_no_final_test,0.7395,0.7103333333333334,0.565,0.1093333333333333
+0,sparse_moe,baseline_sparse_moe,sparse_moe_cand_0,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.0}",train_split_validation_only_no_final_test,0.0075,0.1796666666666666,0.0,0.6886666666666666
+0,dense_moe,baseline_dense_moe,dense_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0075,0.1796666666666666,0.0,0.6886666666666666
+0,hard_top1_moe,baseline_hard_top1_moe,hard_top1_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0105,0.1773333333333333,0.0,0.6673333333333333
+0,noisy_topk_moe,baseline_noisy_topk_moe,noisy_topk_moe_cand_1,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.001}",train_split_validation_only_no_final_test,0.00675,0.1783333333333333,0.0,0.6863333333333334
+0,pnn,baseline_pnn,pnn_cand_1,True,"{""LR"": 0.0005}",train_split_validation_only_no_final_test,0.0069166666666666,0.1786666666666666,0.0,0.687
+0,joint_upper_bound,baseline_joint_upper_bound,joint_upper_bound_sanity,True,"{""LR"": 0.001}",sanity_upper_bound_not_selected_by_validation,,,,
+1,finetune,baseline_finetune,finetune_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0048333333333333,0.177,0.0,0.6886666666666666
+1,ewc,baseline_ewc,ewc_cand_2,True,"{""EWC_LAMBDA"": 50.0}",train_split_validation_only_no_final_test,0.0051666666666666,0.1766666666666666,0.0,0.6859999999999999
+1,lwf,baseline_lwf,lwf_cand_2,True,"{""DISTILL_TEMPERATURE"": 3.0, ""LWF_LAMBDA"": 2.0}",train_split_validation_only_no_final_test,0.1966666666666666,0.1973333333333333,0.005,0.0046666666666666
+1,experience_replay,baseline_experience_replay,experience_replay_cand_1,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 96, ""MEMORY_PER_TASK"": 96}",train_split_validation_only_no_final_test,0.72275,0.6996666666666667,0.555,0.1296666666666666
+1,balanced_replay,baseline_balanced_replay,balanced_replay_cand_1,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 96, ""MEMORY_PER_TASK"": 96}",train_split_validation_only_no_final_test,0.72275,0.6996666666666667,0.555,0.1296666666666666
+1,sparse_moe,baseline_sparse_moe,sparse_moe_cand_1,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.001}",train_split_validation_only_no_final_test,0.0085833333333333,0.1776666666666666,0.0,0.6763333333333333
+1,dense_moe,baseline_dense_moe,dense_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0061666666666666,0.177,0.0,0.6833333333333333
+1,hard_top1_moe,baseline_hard_top1_moe,hard_top1_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.02625,0.1923333333333333,0.0,0.6643333333333332
+1,noisy_topk_moe,baseline_noisy_topk_moe,noisy_topk_moe_cand_2,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.002}",train_split_validation_only_no_final_test,0.0069166666666666,0.1783333333333333,0.0,0.6856666666666666
+1,pnn,baseline_pnn,pnn_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0085833333333333,0.176,0.0,0.6696666666666666
+1,joint_upper_bound,baseline_joint_upper_bound,joint_upper_bound_sanity,True,"{""LR"": 0.001}",sanity_upper_bound_not_selected_by_validation,,,,
+2,finetune,baseline_finetune,finetune_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0056666666666666,0.1726666666666666,0.0,0.6679999999999999
+2,ewc,baseline_ewc,ewc_cand_0,True,"{""EWC_LAMBDA"": 1.0}",train_split_validation_only_no_final_test,0.0046666666666666,0.174,0.0,0.6773333333333333
+2,lwf,baseline_lwf,lwf_cand_2,True,"{""DISTILL_TEMPERATURE"": 3.0, ""LWF_LAMBDA"": 2.0}",train_split_validation_only_no_final_test,0.209,0.209,0.0116666666666666,0.0046666666666666
+2,experience_replay,baseline_experience_replay,experience_replay_cand_2,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 192, ""MEMORY_PER_TASK"": 192}",train_split_validation_only_no_final_test,0.7379166666666667,0.702,0.625,0.1063333333333333
+2,balanced_replay,baseline_balanced_replay,balanced_replay_cand_2,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 192, ""MEMORY_PER_TASK"": 192}",train_split_validation_only_no_final_test,0.7379166666666667,0.702,0.625,0.1063333333333333
+2,sparse_moe,baseline_sparse_moe,sparse_moe_cand_2,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.002}",train_split_validation_only_no_final_test,0.0061666666666666,0.1743333333333333,0.0,0.6726666666666666
+2,dense_moe,baseline_dense_moe,dense_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0041666666666666,0.173,0.0,0.6753333333333333
+2,hard_top1_moe,baseline_hard_top1_moe,hard_top1_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,-0.00125,0.1656666666666666,0.0,0.6676666666666667
+2,noisy_topk_moe,baseline_noisy_topk_moe,noisy_topk_moe_cand_1,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.001}",train_split_validation_only_no_final_test,0.0044166666666666,0.1736666666666666,0.0,0.6769999999999999
+2,pnn,baseline_pnn,pnn_cand_1,True,"{""LR"": 0.0005}",train_split_validation_only_no_final_test,0.0034166666666666,0.173,0.0,0.6783333333333333
+2,joint_upper_bound,baseline_joint_upper_bound,joint_upper_bound_sanity,True,"{""LR"": 0.001}",sanity_upper_bound_not_selected_by_validation,,,,

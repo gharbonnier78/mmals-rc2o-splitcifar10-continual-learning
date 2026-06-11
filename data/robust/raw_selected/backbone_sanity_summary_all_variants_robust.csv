@@ -1,0 +1,4 @@
+backbone_variant,status,supervised_best_val_acc,supervised_test_acc_at_best_val,supervised_best_epoch,linear_probe_best_val_acc,linear_probe_test_acc_at_best_val,linear_probe_best_epoch,feature_dim,total_parameters,trainable_parameters,error
+smallcnn_v21_reference,ok,0.7445,0.7456,15,0.751,0.7502,8,256,129290,129290,
+smallcnn_a1_aug_norm,ok,0.884375,0.8797,27,0.884125,0.8803,2,256,625482,625482,
+resnet18_imagenet_frozen,ok,0.86825,0.8598,11,0.869,0.8558,5,512,11181642,5130,

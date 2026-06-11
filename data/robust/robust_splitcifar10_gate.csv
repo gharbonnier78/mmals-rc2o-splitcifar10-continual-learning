@@ -1,0 +1,11 @@
+dataset,run_mode,check,value,floor,ceiling,passed,detail,gate_family,diagnostic_only
+SplitCIFAR10,robust,a1_supervised_backbone_pass,0.884375,0.65,,True,A1 ordinary supervised CIFAR10 sanity must pass before CL interpretation.,splitcifar10_external_bridge_smoke,True
+SplitCIFAR10,robust,a1_frozen_linear_probe_pass,0.884125,0.55,,True,Frozen A1 features should be linearly separable enough for SplitCIFAR bridge.,splitcifar10_external_bridge_smoke,True
+SplitCIFAR10,robust,joint_upper_bound_representation_floor,0.75315,0.55,,True,Joint upper bound should no longer indicate representation collapse.,splitcifar10_external_bridge_smoke,True
+SplitCIFAR10,robust,selected_rc2o_competitive_with_replay,0.91395,0.7286,,True,selected=0.9140; best_replay=0.7386; tol=0.0100,splitcifar10_external_bridge_smoke,True
+SplitCIFAR10,robust,selected_min_task_nonzero,0.8535,0.05,,True,"External smoke gate only requires non-collapsed task retention, not MNIST-level 0.8+.",splitcifar10_external_bridge_smoke,True
+SplitCIFAR10,robust,selected_forgetting_not_explosive,0.0242499999999999,,0.2,True,Forgetting ceiling for smoke; robust gate will be stricter.,splitcifar10_external_bridge_smoke,True
+SplitCIFAR10,robust,selected_min_class_nonzero,0.841,0.05,,True,No critical class should be fully abandoned by the selected policy.,splitcifar10_external_bridge_smoke,True
+SplitCIFAR10,robust,selected_zero_recall_classes_gate,,,0.0,True,zero_recall_classes=[],splitcifar10_external_bridge_smoke,True
+SplitCIFAR10,robust,specialization_components_materialized,4.0,4.0,,True,"ok=['host_ablation', 'host_probe', 'prototype_separation', 'route_context_and_confusion']; missing_or_failed=[]",splitcifar10_external_bridge_smoke,True
+SplitCIFAR10,robust,specialization_aligned_to_selected_policy,1.0,1.0,,True,Specialization audit should use the final selected candidate config/readout when available.,splitcifar10_external_bridge_smoke,True

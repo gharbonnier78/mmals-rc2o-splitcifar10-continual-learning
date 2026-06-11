@@ -1,0 +1,30 @@
+{
+  "run": "RC2O-v2.2c SplitCIFAR10 evidence seeds3",
+  "selected_rc2o_acc": 0.9086666666666666,
+  "selected_rc2o_std": 0.0119015055070076,
+  "selected_rc2o_min_task": 0.8283333333333335,
+  "selected_rc2o_forgetting": 0.0264583333333333,
+  "selected_rc2o_min_class": 0.7925,
+  "safe_readout_acc": 0.90975,
+  "context_gap_acc": 0.90925,
+  "best_replay_acc": 0.7413333333333334,
+  "best_replay_forgetting": 0.1875,
+  "joint_mlp_control_acc": 0.75325,
+  "zf_oracle_probe_acc": 0.9210833333333334,
+  "delta_selected_vs_replay": 0.16733333333333322,
+  "delta_safe_vs_replay": 0.16841666666666655,
+  "delta_zf_oracle_vs_selected": 0.012416666666666742,
+  "all_splitcifar_gate_passed": true,
+  "all_specialization_components_ok": true,
+  "energy_probe": {
+    "oracle_hit_rate_mean": 1.0,
+    "success_rate_mean": 1.0,
+    "wrong_context_rate_mean": 0.0,
+    "divergence_rate_mean": 0.0,
+    "median_final_context_gap_mean": 0.41953303416570026,
+    "mean_final_context_gap_mean": 0.46472949646413325
+  },
+  "lsa_mean_cosine": 0.9041524387357905,
+  "lsa_min_cosine": 0.6612829950818132,
+  "lsa_mean_suspicious_rate": 0.333859649122807
+}

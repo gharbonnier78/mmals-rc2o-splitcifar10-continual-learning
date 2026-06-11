@@ -1,0 +1,51 @@
+pairwise_cos_mean,pairwise_cos_min,pairwise_cos_max,n_vectors,seed,after_task,prototype_space,context_ids,audit_only,specialization_audit_target_variant,specialization_audit_target_method,specialization_audit_target_policy_family,specialization_audit_model_source,specialization_audit_aligned_to_selected_candidate,specialization_audit_diagnostic_only
+,,,0,0,0,feature,[0],True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+,,,0,0,0,latent,[0],True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.5077979564666748,0.5077979564666748,0.5077979564666748,2,0,1,feature,"[0, 1]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.01063888892531395,0.01063888892531395,0.01063888892531395,2,0,1,latent,"[0, 1]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.6179192662239075,0.43580636382102966,0.9234758615493774,3,0,2,feature,"[0, 1, 2]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+-0.11443602293729782,-0.29434168338775635,0.034191228449344635,3,0,2,latent,"[0, 1, 2]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.6370667815208435,0.4022504687309265,0.9189895391464233,4,0,3,feature,"[0, 1, 2, 3]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+-0.051327601075172424,-0.2603541910648346,0.022781478241086006,4,0,3,latent,"[0, 1, 2, 3]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.5312199592590332,0.27662694454193115,0.8763275742530823,5,0,4,feature,"[0, 1, 2, 3, 4]",True,proto_global_no_repair,paired_proto_global_no_repair,proto_no_repair,selected_policy_candidate,True,True
+0.01725831814110279,-0.3090847432613373,0.5421178340911865,5,0,4,latent,"[0, 1, 2, 3, 4]",True,proto_global_no_repair,paired_proto_global_no_repair,proto_no_repair,selected_policy_candidate,True,True
+,,,0,1,0,feature,[0],True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+,,,0,1,0,latent,[0],True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.5629856586456299,0.5629856586456299,0.5629856586456299,2,1,1,feature,"[0, 1]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.03887283802032471,0.03887283802032471,0.03887283802032471,2,1,1,latent,"[0, 1]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.6339097023010254,0.47092002630233765,0.8966747522354126,3,1,2,feature,"[0, 1, 2]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+-0.14496681094169617,-0.28807729482650757,0.04241490364074707,3,1,2,latent,"[0, 1, 2]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.6086999773979187,0.31796327233314514,0.9093044400215149,4,1,3,feature,"[0, 1, 2, 3]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+-0.17586259543895721,-0.29792237281799316,0.052392035722732544,4,1,3,latent,"[0, 1, 2, 3]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.5253117680549622,0.2876656651496887,0.8592042922973633,5,1,4,feature,"[0, 1, 2, 3, 4]",True,context_gap_safe_class_balanced_readout_calibrated,paired_context_gap_safe_class_balanced_readout_calibrated,other,selected_policy_candidate,True,True
+-0.1420716941356659,-0.4033103585243225,0.38966912031173706,5,1,4,latent,"[0, 1, 2, 3, 4]",True,context_gap_safe_class_balanced_readout_calibrated,paired_context_gap_safe_class_balanced_readout_calibrated,other,selected_policy_candidate,True,True
+,,,0,2,0,feature,[0],True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+,,,0,2,0,latent,[0],True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.5165796279907227,0.5165796279907227,0.5165796279907227,2,2,1,feature,"[0, 1]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.13644497096538544,0.13644497096538544,0.13644497096538544,2,2,1,latent,"[0, 1]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.6144607067108154,0.44210517406463623,0.9324946403503418,3,2,2,feature,"[0, 1, 2]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+-0.052147332578897476,-0.20594903826713562,0.1364218294620514,3,2,2,latent,"[0, 1, 2]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.5988906621932983,0.39434635639190674,0.9380009174346924,4,2,3,feature,"[0, 1, 2, 3]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+-0.08929211646318436,-0.1862097531557083,0.13283158838748932,4,2,3,latent,"[0, 1, 2, 3]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.4975149631500244,0.28985708951950073,0.9124616384506226,5,2,4,feature,"[0, 1, 2, 3, 4]",True,context_temp_blend_selected_head_guard_035,paired_context_temp_blend_selected_head_guard_035,rc1b_guarded_context_gap,selected_policy_candidate,True,True
+-0.04263994097709656,-0.5381290316581726,0.6664555072784424,5,2,4,latent,"[0, 1, 2, 3, 4]",True,context_temp_blend_selected_head_guard_035,paired_context_temp_blend_selected_head_guard_035,rc1b_guarded_context_gap,selected_policy_candidate,True,True
+,,,0,3,0,feature,[0],True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+,,,0,3,0,latent,[0],True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.6409424543380737,0.6409424543380737,0.6409424543380737,2,3,1,feature,"[0, 1]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.016459502279758453,0.016459502279758453,0.016459502279758453,2,3,1,latent,"[0, 1]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.6990767121315002,0.5545855760574341,0.9009842872619629,3,3,2,feature,"[0, 1, 2]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+-0.1620049625635147,-0.3668481111526489,0.0386035293340683,3,3,2,latent,"[0, 1, 2]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.7106505036354065,0.545287013053894,0.9142208099365234,4,3,3,feature,"[0, 1, 2, 3]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+-0.12942923605442047,-0.2704465985298157,0.015528447926044464,4,3,3,latent,"[0, 1, 2, 3]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.606494665145874,0.31913238763809204,0.8796547651290894,5,3,4,feature,"[0, 1, 2, 3, 4]",True,context_gap_safe_class_balanced_readout_calibrated,paired_context_gap_safe_class_balanced_readout_calibrated,other,selected_policy_candidate,True,True
+-0.0404430516064167,-0.35166919231414795,0.46084779500961304,5,3,4,latent,"[0, 1, 2, 3, 4]",True,context_gap_safe_class_balanced_readout_calibrated,paired_context_gap_safe_class_balanced_readout_calibrated,other,selected_policy_candidate,True,True
+,,,0,4,0,feature,[0],True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+,,,0,4,0,latent,[0],True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.552405059337616,0.552405059337616,0.552405059337616,2,4,1,feature,"[0, 1]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+-0.022708289325237274,-0.022708289325237274,-0.022708289325237274,2,4,1,latent,"[0, 1]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.6378380656242371,0.4716242253780365,0.906426191329956,3,4,2,feature,"[0, 1, 2]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+-0.13456492125988007,-0.22150100767612457,-0.01461775042116642,3,4,2,latent,"[0, 1, 2]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.6498714089393616,0.45807838439941406,0.8814947009086609,4,4,3,feature,"[0, 1, 2, 3]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.04014909267425537,-0.2735653221607208,0.6079887747764587,4,4,3,latent,"[0, 1, 2, 3]",True,base_final_checkpoint,base_proto_first_checkpoint,base_checkpoint,base_checkpoint_prototypes,False,True
+0.4950021207332611,0.17931708693504333,0.8347680568695068,5,4,4,feature,"[0, 1, 2, 3, 4]",True,context_gap_safe_class_balanced_readout_calibrated,paired_context_gap_safe_class_balanced_readout_calibrated,other,selected_policy_candidate,True,True
+-0.00400712201371789,-0.36163198947906494,0.5120842456817627,5,4,4,latent,"[0, 1, 2, 3, 4]",True,context_gap_safe_class_balanced_readout_calibrated,paired_context_gap_safe_class_balanced_readout_calibrated,other,selected_policy_candidate,True,True

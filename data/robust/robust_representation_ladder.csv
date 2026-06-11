@@ -1,0 +1,10 @@
+stage_order,stage,metric,value,secondary_value,source,diagnostic_only,backbone_sanity_gates_passed,joint_upper_bound_floor,joint_upper_bound_passed,cl_interpretation
+1,task_union_feature_backbone_internal_val,feature_backbone_val_acc,0.883125,0.8986875,FEATURE_BACKBONE_HISTORY_DF,True,True,0.65,True,CL comparison potentially meaningful
+2,supervised_cifar10_backbone_sanity_best_variant,val_acc_best,0.884375,0.8797,backbone_sanity_supervised,True,True,0.65,True,CL comparison potentially meaningful
+3,frozen_feature_linear_probe_sanity,val_acc_best,0.884125,0.8803,backbone_sanity_frozen_linear_probe,True,True,0.65,True,CL comparison potentially meaningful
+4,joint_upper_bound,final_avg_acc_mean,0.75315,,scorecard_df,False,True,0.65,True,CL comparison potentially meaningful
+5,zf_oracle_probe,probe_proto__zf_oracle,0.92345,,scorecard_df,True,True,0.65,True,CL comparison potentially meaningful
+6,rc2o_selected_policy,final_avg_acc_mean,0.91395,,scorecard_df,False,True,0.65,True,CL comparison potentially meaningful
+7,safe_readout_rescue_candidate,final_avg_acc_mean,0.91385,,scorecard_df,False,True,0.65,True,CL comparison potentially meaningful
+8,best_replay_baseline,baseline_balanced_replay,0.7386,,scorecard_df,False,True,0.65,True,CL comparison potentially meaningful
+9,best_validation_selected_baseline_or_upper_bound,baseline_joint_upper_bound,0.75315,,scorecard_df,False,True,0.65,True,CL comparison potentially meaningful

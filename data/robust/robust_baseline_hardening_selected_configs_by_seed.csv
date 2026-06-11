@@ -1,0 +1,56 @@
+seed,short_name,method,candidate_id,selected,config_json,selection_scope,validation_score,validation_final_avg_acc,validation_min_task_acc,validation_avg_forgetting
+0,finetune,baseline_finetune,finetune_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0047499999999999,0.176,0.0,0.685
+0,ewc,baseline_ewc,ewc_cand_2,True,"{""EWC_LAMBDA"": 50.0}",train_split_validation_only_no_final_test,0.0081666666666666,0.1793333333333333,0.0,0.6846666666666666
+0,lwf,baseline_lwf,lwf_cand_2,True,"{""DISTILL_TEMPERATURE"": 3.0, ""LWF_LAMBDA"": 2.0}",train_split_validation_only_no_final_test,0.2474166666666667,0.2506666666666667,0.0,0.013
+0,experience_replay,baseline_experience_replay,experience_replay_cand_2,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 192, ""MEMORY_PER_TASK"": 192}",train_split_validation_only_no_final_test,0.7424999999999999,0.7116666666666667,0.58,0.1086666666666666
+0,balanced_replay,baseline_balanced_replay,balanced_replay_cand_2,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 192, ""MEMORY_PER_TASK"": 192}",train_split_validation_only_no_final_test,0.7424999999999999,0.7116666666666667,0.58,0.1086666666666666
+0,sparse_moe,baseline_sparse_moe,sparse_moe_cand_0,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.0}",train_split_validation_only_no_final_test,0.0105,0.18,0.0,0.6779999999999999
+0,dense_moe,baseline_dense_moe,dense_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0105,0.18,0.0,0.6779999999999999
+0,hard_top1_moe,baseline_hard_top1_moe,hard_top1_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0085,0.1776666666666667,0.0,0.6766666666666666
+0,noisy_topk_moe,baseline_noisy_topk_moe,noisy_topk_moe_cand_0,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.0}",train_split_validation_only_no_final_test,0.0089999999999999,0.1793333333333333,0.0,0.6813333333333335
+0,pnn,baseline_pnn,pnn_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.00875,0.1783333333333333,0.0,0.6783333333333333
+0,joint_upper_bound,baseline_joint_upper_bound,joint_upper_bound_sanity,True,"{""LR"": 0.001}",sanity_upper_bound_not_selected_by_validation,,,,
+1,finetune,baseline_finetune,finetune_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0050833333333333,0.1746666666666666,0.0,0.6783333333333333
+1,ewc,baseline_ewc,ewc_cand_2,True,"{""EWC_LAMBDA"": 50.0}",train_split_validation_only_no_final_test,0.0035833333333333,0.1736666666666666,0.0,0.6803333333333333
+1,lwf,baseline_lwf,lwf_cand_2,True,"{""DISTILL_TEMPERATURE"": 3.0, ""LWF_LAMBDA"": 2.0}",train_split_validation_only_no_final_test,0.2357499999999999,0.2349999999999999,0.0266666666666666,0.0076666666666666
+1,experience_replay,baseline_experience_replay,experience_replay_cand_2,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 192, ""MEMORY_PER_TASK"": 192}",train_split_validation_only_no_final_test,0.7260833333333333,0.6996666666666667,0.5533333333333333,0.1156666666666666
+1,balanced_replay,baseline_balanced_replay,balanced_replay_cand_2,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 192, ""MEMORY_PER_TASK"": 192}",train_split_validation_only_no_final_test,0.7260833333333333,0.6996666666666667,0.5533333333333333,0.1156666666666666
+1,sparse_moe,baseline_sparse_moe,sparse_moe_cand_2,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.002}",train_split_validation_only_no_final_test,0.0079166666666666,0.1766666666666666,0.0,0.675
+1,dense_moe,baseline_dense_moe,dense_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0058333333333333,0.1753333333333333,0.0,0.6779999999999999
+1,hard_top1_moe,baseline_hard_top1_moe,hard_top1_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0044166666666666,0.1733333333333333,0.0,0.6756666666666666
+1,noisy_topk_moe,baseline_noisy_topk_moe,noisy_topk_moe_cand_0,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.0}",train_split_validation_only_no_final_test,0.0066666666666666,0.1756666666666666,0.0,0.6759999999999999
+1,pnn,baseline_pnn,pnn_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0059166666666666,0.1753333333333333,0.0,0.6776666666666666
+1,joint_upper_bound,baseline_joint_upper_bound,joint_upper_bound_sanity,True,"{""LR"": 0.001}",sanity_upper_bound_not_selected_by_validation,,,,
+2,finetune,baseline_finetune,finetune_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0077499999999999,0.1743333333333333,0.0,0.6663333333333334
+2,ewc,baseline_ewc,ewc_cand_0,True,"{""EWC_LAMBDA"": 1.0}",train_split_validation_only_no_final_test,0.00725,0.1756666666666666,0.0,0.6736666666666666
+2,lwf,baseline_lwf,lwf_cand_2,True,"{""DISTILL_TEMPERATURE"": 3.0, ""LWF_LAMBDA"": 2.0}",train_split_validation_only_no_final_test,0.2421666666666666,0.2393333333333333,0.0416666666666666,0.0053333333333333
+2,experience_replay,baseline_experience_replay,experience_replay_cand_1,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 96, ""MEMORY_PER_TASK"": 96}",train_split_validation_only_no_final_test,0.7185,0.6923333333333334,0.555,0.1173333333333333
+2,balanced_replay,baseline_balanced_replay,balanced_replay_cand_1,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 96, ""MEMORY_PER_TASK"": 96}",train_split_validation_only_no_final_test,0.7185,0.6923333333333334,0.555,0.1173333333333333
+2,sparse_moe,baseline_sparse_moe,sparse_moe_cand_1,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.001}",train_split_validation_only_no_final_test,0.00725,0.1763333333333333,0.0,0.6763333333333332
+2,dense_moe,baseline_dense_moe,dense_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0008333333333333,0.1699999999999999,0.0,0.6766666666666666
+2,hard_top1_moe,baseline_hard_top1_moe,hard_top1_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0080833333333333,0.1753333333333333,0.0,0.6689999999999999
+2,noisy_topk_moe,baseline_noisy_topk_moe,noisy_topk_moe_cand_2,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.002}",train_split_validation_only_no_final_test,0.0063333333333333,0.1756666666666666,0.0,0.6773333333333333
+2,pnn,baseline_pnn,pnn_cand_1,True,"{""LR"": 0.0005}",train_split_validation_only_no_final_test,0.0063333333333333,0.176,0.0,0.6786666666666668
+2,joint_upper_bound,baseline_joint_upper_bound,joint_upper_bound_sanity,True,"{""LR"": 0.001}",sanity_upper_bound_not_selected_by_validation,,,,
+3,finetune,baseline_finetune,finetune_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0030833333333333,0.1716666666666666,0.0,0.6743333333333332
+3,ewc,baseline_ewc,ewc_cand_2,True,"{""EWC_LAMBDA"": 50.0}",train_split_validation_only_no_final_test,0.0066666666666666,0.1756666666666666,0.0,0.6759999999999999
+3,lwf,baseline_lwf,lwf_cand_2,True,"{""DISTILL_TEMPERATURE"": 3.0, ""LWF_LAMBDA"": 2.0}",train_split_validation_only_no_final_test,0.2304166666666667,0.229,0.0266666666666666,0.005
+3,experience_replay,baseline_experience_replay,experience_replay_cand_2,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 192, ""MEMORY_PER_TASK"": 192}",train_split_validation_only_no_final_test,0.7175833333333332,0.694,0.5283333333333333,0.117
+3,balanced_replay,baseline_balanced_replay,balanced_replay_cand_2,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 192, ""MEMORY_PER_TASK"": 192}",train_split_validation_only_no_final_test,0.7175833333333332,0.694,0.5283333333333333,0.117
+3,sparse_moe,baseline_sparse_moe,sparse_moe_cand_1,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.001}",train_split_validation_only_no_final_test,0.0069166666666666,0.174,0.0,0.6683333333333333
+3,dense_moe,baseline_dense_moe,dense_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0059166666666666,0.1733333333333333,0.0,0.6696666666666667
+3,hard_top1_moe,baseline_hard_top1_moe,hard_top1_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0079999999999999,0.173,0.0,0.66
+3,noisy_topk_moe,baseline_noisy_topk_moe,noisy_topk_moe_cand_2,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.002}",train_split_validation_only_no_final_test,0.0078333333333333,0.173,0.0,0.6606666666666666
+3,pnn,baseline_pnn,pnn_cand_1,True,"{""LR"": 0.0005}",train_split_validation_only_no_final_test,0.0091666666666666,0.174,0.0,0.6593333333333333
+3,joint_upper_bound,baseline_joint_upper_bound,joint_upper_bound_sanity,True,"{""LR"": 0.001}",sanity_upper_bound_not_selected_by_validation,,,,
+4,finetune,baseline_finetune,finetune_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,-0.0004166666666667,0.1699999999999999,0.0,0.6816666666666668
+4,ewc,baseline_ewc,ewc_cand_0,True,"{""EWC_LAMBDA"": 1.0}",train_split_validation_only_no_final_test,-8.333333333335191e-05,0.172,0.0,0.6883333333333334
+4,lwf,baseline_lwf,lwf_cand_2,True,"{""DISTILL_TEMPERATURE"": 3.0, ""LWF_LAMBDA"": 2.0}",train_split_validation_only_no_final_test,0.1885833333333333,0.1886666666666666,0.0,0.0003333333333333
+4,experience_replay,baseline_experience_replay,experience_replay_cand_2,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 192, ""MEMORY_PER_TASK"": 192}",train_split_validation_only_no_final_test,0.7145000000000001,0.6890000000000001,0.5716666666666667,0.1266666666666666
+4,balanced_replay,baseline_balanced_replay,balanced_replay_cand_2,True,"{""BASELINE_REPLAY_WEIGHT"": 1.0, ""MEMORY_PER_CLASS"": 192, ""MEMORY_PER_TASK"": 192}",train_split_validation_only_no_final_test,0.7145000000000001,0.6890000000000001,0.5716666666666667,0.1266666666666666
+4,sparse_moe,baseline_sparse_moe,sparse_moe_cand_2,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.002}",train_split_validation_only_no_final_test,0.0006666666666666,0.1723333333333333,0.0,0.6866666666666668
+4,dense_moe,baseline_dense_moe,dense_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,-0.0015833333333333,0.1699999999999999,0.0,0.6863333333333334
+4,hard_top1_moe,baseline_hard_top1_moe,hard_top1_moe_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,-0.0039999999999999,0.165,0.0,0.6759999999999999
+4,noisy_topk_moe,baseline_noisy_topk_moe,noisy_topk_moe_cand_1,True,"{""SPARSE_MOE_ENTROPY_WEIGHT"": 0.001}",train_split_validation_only_no_final_test,-8.333333333335191e-05,0.1716666666666666,0.0,0.687
+4,pnn,baseline_pnn,pnn_cand_0,True,"{""LR"": 0.001}",train_split_validation_only_no_final_test,0.0006666666666666,0.1693333333333333,0.0,0.6746666666666666
+4,joint_upper_bound,baseline_joint_upper_bound,joint_upper_bound_sanity,True,"{""LR"": 0.001}",sanity_upper_bound_not_selected_by_validation,,,,

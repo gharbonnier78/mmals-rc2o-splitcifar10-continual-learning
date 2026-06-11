@@ -1,0 +1,7 @@
+metric,value
+final acc,0.91395
+min-task,0.8535
+min-class,0.841
+forgetting,0.0242499999999999
+delta vs replay,0.17535
+oracle gap,0.009499999999999998

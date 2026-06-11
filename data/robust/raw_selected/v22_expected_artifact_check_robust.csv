@@ -1,0 +1,9 @@
+artifact,exists_root,size_bytes_root,exists_audit,size_bytes_audit
+baseline_hardening_validation_trace_robust.csv,True,24661,True,24661
+specialization_route_context_audit_robust.csv,True,9409,True,9409
+specialization_host_ablation_robust.csv,True,29126,True,29126
+specialization_host_probe_robust.csv,True,21606,True,21606
+specialization_prototype_separation_over_time_robust.csv,True,9842,True,9842
+specialization_context_confusion_robust.csv,True,4384,True,4384
+specialization_component_status_robust.csv,True,3828,True,3828
+readout_collapse_diagnostic_robust.csv,True,17466,True,17466
